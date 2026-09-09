@@ -2,7 +2,7 @@
 
 Outil d'expertise immobilière orienté **valeur vénale**, construit sous Power BI, inspiré d'un cas d'étude. Ce projet reproduit et pilote de façon interactive les deux méthodes classiques de valorisation d'un actif de bureaux : **DCF (discounted cash-flow)** et **capitalisation du revenu**.
 
-**Données** : le jeu de données utilisé ici reprend la structure d'un cas d'étude pédagogique (15 rue la Boétie, Paris 8e), entièrement anonymisé. Aucune donnée client ou de mandat réel n'apparaît dans ce repo. Le fichier `.pbix` n'est volontairement pas publié dans ce dépôt.
+**Données** : le jeu de données utilisé ici reprend la structure d'un cas d'étude pédagogique Immeuble Paris QCA, entièrement anonymisé. Aucune donnée client ou de mandat réel n'apparaît dans ce repo. Le fichier `.pbix` n'est volontairement pas publié dans ce dépôt.
 
 **Démo interactive** : [Ouvrir le rapport Power BI en direct](https://app.powerbi.com/view?r=eyJrIjoiNGRkYmE4YmEtZmI0Zi00MTAzLTk0YmQtOTJlOGU2YzEyMTc4IiwidCI6ImQwNzYyZjgyLWU0MWQtNGZjOC1iZWFjLTBmYzYxMzY4NjE5NSJ9) — tous les sliders sont pilotables en direct, aucune connexion requise.
 
@@ -67,7 +67,7 @@ Cela permet de garder une source unique de vérité pour les valeurs par défaut
 
 ## Étapes de validation
 
-Le moteur DCF et Capitalisation a été validé au centime près contre le fichier Excel de référence (cas C&W), sur les quatre valeurs de synthèse ainsi que sur le détail annuel des cash-flows.
+Le moteur DCF et Capitalisation a été validé au centime près contre le fichier Excel de référence, sur les quatre valeurs de synthèse ainsi que sur le détail annuel des cash-flows.
 
 ## Ce que cette V1 ne fait pas (volontairement)
 
@@ -80,4 +80,4 @@ Ces éléments sont prévus pour une V2, une fois cette V1 gelée et documentée
 
 ## Auteur
 
-Julien Anceaux — projet personnel réalisé avec Claude comme assistant technique (Power BI / DAX), dans le cadre d'un travail de préparation à des entretiens en valorisation immobilière.
+Julien Anceaux — projet personnel 
