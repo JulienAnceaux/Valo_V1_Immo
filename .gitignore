@@ -1,0 +1,6 @@
+# Fichiers Power BI (le .pbix n'est pas publié dans ce repo)
+*.pbix
+*.pbix.bak
+~$*.pbix
+.DS_Store
+Thumbs.db
